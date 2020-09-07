@@ -1,6 +1,6 @@
 Hi,
 
-Ini adalah file pertemuan 1.
+Ini adalah file pertemuan 1 Html dan git
 
 
-Bye
+see you later
