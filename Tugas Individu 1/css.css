@@ -1,0 +1,38 @@
+body{
+    margin: 1;
+    padding: 1;
+    background-size: cover;
+    background: url(https://images.unsplash.com/photo-1595566237254-061fceb0b8a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2046&q=80) no-repeat;
+  }
+  .box{
+    align-content: left;
+    width: 700px;
+    padding: 50px;
+    background: rgba(0, 0, 100, 0.7);
+    text-align: left;
+    margin: auto;
+    margin-top: 5%;
+    color:gold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .box-img{
+    width: 250px;
+    height: 300px;
+
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  
