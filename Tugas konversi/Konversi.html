@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Number Conversion</title>
+</head>
+
+<body>
+<script>
+        function Converternum(input) {
+            if (input.length > 3 || input == "" || input < 0) {
+                alert("Please enter only number from 0 to 100");
+            } else if (input >= 0 && input <= 40) {
+                document.getElementById("output").innerHTML = "E";
+            } else if (input >= 41 && input <= 55) {
+                document.getElementById("output").innerHTML = "D";
+            } else if (input >= 56 && input <= 70) {
+                document.getElementById("output").innerHTML = "C";
+            } else if (input >= 71 && input <= 80) {
+                document.getElementById("output").innerHTML = "B";
+            } else if (input >= 81 && input <= 100) {
+                document.getElementById("output").innerHTML = "A";
+            }
+        }
+    </script>
+
+    <input type="text" id="input" placeholder="Add a number"">
+    <button type="button" onclick='Converternum(document.getElementById("input").value)'>Convert</button>
+    <h1>conversion :</h1>
+    <p id="output">--------</p>
+
+</body>
+
+</html>

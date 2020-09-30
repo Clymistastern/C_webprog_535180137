@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+       function plus(id, num1, num2) {
+            document.getElementById(id).value = Number(num1)+Number(num2);
+        }
+        function minus(id, num1, num2) {
+            document.getElementById(id).value = Number(num1)-Number(num2);
+        }
+        function divide(id, num1, num2) {
+            document.getElementById(id).value = Number(num1)/Number(num2);
+        }
+        function multiple(id, num1, num2) {
+            document.getElementById(id).value = Number(num1)*Number(num2);
+        }
+        function mod(id, num1, num2) {
+            document.getElementById(id).value = Number(num1)%Number(num2);
+        }
+    </script>
+    
+<td>number 1  :<input type="text" size=10 id='number1'/></td><br><br>
+<td>number 2  :<input type="text" size=10 id='number2'/></td><br><br>
+<td>total :<input type="text" id='result' ></td><br><br>
+<button type="button" onclick='plus("result", document.getElementById("number1").value , document.getElementById("number2").value)'">+</button>
+<button type="button" onclick='minus("result", document.getElementById("number1").value , document.getElementById("number2").value)'">-</button>
+<button type="button" onclick='divide("result", document.getElementById("number1").value , document.getElementById("number2").value)'">/</button>
+<button type="button" onclick='multiple("result", document.getElementById("number1").value , document.getElementById("number2").value)'">*</button>
+<button type="button" onclick='mod("result", document.getElementById("number1").value , document.getElementById("number2").value)'">%</button>
+</body>
+
+</html>
